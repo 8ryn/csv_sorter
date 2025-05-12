@@ -1,6 +1,9 @@
 import os
 import csv
 
+#To use change the file_tag to be a unique name for these results and 
+# the input and output paths
+
 #Specify a unique tag for this set of results
 file_tag = "results"
 
