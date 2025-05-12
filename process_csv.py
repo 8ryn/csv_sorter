@@ -11,8 +11,8 @@ file_tag = "results"
 input_path = "data"
 output_path = "output"
 
-with open(os.path.join(output_path, file_tag + "_DAPI.csv"), "w") as output_file:
-    output_writer = csv.writer(output_file)
+with open(os.path.join(output_path, file_tag + ".csv"), "w") as output_file:
+    output_writer = csv.writer(output_file, lineterminator="\n")
     output_writer.writerow(["Name", "Whole", "AF790", "AF488", "No. nuclei"])
 
 
